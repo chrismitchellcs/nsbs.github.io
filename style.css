@@ -35,6 +35,14 @@
   /* background-color: #d55a41; */
   background-color: #000000;
   color: #ffffff;
+  margin-top: 0px;
+}
+
+.section5 {
+  /* background-color: #d55a41; */
+  background-color: #3c5d4e;
+  color: #ffffff;
+  margin-top: 0px;
 }
 
 .section4 {
@@ -76,10 +84,23 @@ section > div > p {
   border-radius: 5px;
 }
 
-.btn2 {
-  background-color: #3c5d4e; /* Green */
+.btn1 {
+  background-color: black; /* Green */
   border: none;
   color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+
+.btn2 {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
   padding: 15px 32px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -91,9 +112,12 @@ section > div > p {
 }
 
 .btn1:hover {
-  color: #000000;
+  color: #3c5d4e;
 }
 
+.btn2:hover {
+  color: #3c5d4e;
+}
 section > div > div > div > img {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -190,7 +214,7 @@ body {
 
 .textonimage > caption1 {
   position: absolute;
-  bottom: 0;
+  bottom: 80%;
   left: 0;
   align-items: center;
 }
@@ -202,15 +226,37 @@ body {
   align-items: center;
 }
 
+.textonimage > caption2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+}
+
 .textonimage > caption1 {
   color: white;
-  text-align: left;
+  text-align: center;
+  padding-top: 5%;
+  width: 100%;
+  height: 20%;
+  font-size: 5vw;
+}
+.textonimage > caption2 {
+  color: white;
+  text-align: center;
   padding-left: 5%;
-  width: 50%;
-  height: 100%;
-  font-size: 5em;
+  padding-right: 5%;
+  width: 60%;
+  height: 70%;
+  font-size: 2.4vw;
 }
 
 .textonimage > darkness {
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0, 0, 0, 0.9);
+}
+
+.line {
+  width: 100%;
+  background-color: #000000;
+  height: 20px;
 }
