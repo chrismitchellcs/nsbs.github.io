@@ -26,7 +26,7 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-collapse">
       <div class="container text">
         <a class="navbar-brand" href="#">
           <img
@@ -37,7 +37,15 @@
             class="d-inline-block align-text-top"
           />
         </a>
-        <div class="collapse navbar-collapse" id="navbarText">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a href="index.html" class="nav-link">About</a>
@@ -106,10 +114,10 @@
     <section class="section2">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-md">
+          <div class="col-md order-last">
             <img src="pics/tranny.png" class="img-fluid" />
           </div>
-          <div class="col-md p-5">
+          <div class="col-md p-5 first">
             <h2>Transition Bikes</h2>
             <p class="lead">
               We are proud to be one of the largest Transition Bikes dealers in
@@ -136,7 +144,7 @@
     <section class="section2">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-md p-5">
+          <div class="col-md p-5 order-first">
             <h2>Norco Bicycles</h2>
             <p class="lead">
               Norco is a local brand from Coquitlam, BC that have a broad range
@@ -148,7 +156,7 @@
               >Visit Norco</a
             >
           </div>
-          <div class="col-md">
+          <div class="col-md order-last">
             <img src="pics/norco.png" class="img-fluid" />
           </div>
         </div>
@@ -171,12 +179,12 @@
       </div>
     </section>
 
-    <section class="section3">
+    <section class="section3 hidden-xs">
       <div class="container">
         <div>
           <br />
-          <div class="row">
-            <div class="col-md">
+          <div class="row justify-content-between">
+            <div class="col-xs">
               <img
                 src="logos2/SRAM_logo.svg.jpg"
                 alt=""
@@ -187,7 +195,7 @@
                 class="img-fluid"
               /><img src="logos2/ixs.jpg" alt="" class="img-fluid" />
             </div>
-            <div class="col-md">
+            <div class="col-xs">
               <img
                 src="logos2/Shimano_logo.svg.jpg"
                 alt=""
@@ -198,7 +206,7 @@
                 class="img-fluid"
               /><img src="logos2/endura.jpg" alt="" class="img-fluid" />
             </div>
-            <div class="col-md">
+            <div class="col-xs">
               <img
                 src="logos2/rockshox-logo-vector.jpg"
                 alt=""
@@ -209,7 +217,7 @@
                 class="img-fluid"
               /><img src="logos2/wr1.jpg" alt="" class="img-fluid" />
             </div>
-            <div class="col-md">
+            <div class="col-xs">
               <img src="logos2/fox.jpg" alt="" class="img-fluid" /><img
                 src="logos2/tairin.jpg"
                 alt=""

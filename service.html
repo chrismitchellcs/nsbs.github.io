@@ -26,7 +26,7 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-collapse">
       <div class="container text">
         <a class="navbar-brand" href="#">
           <img
@@ -37,7 +37,15 @@
             class="d-inline-block align-text-top"
           />
         </a>
-        <div class="collapse navbar-collapse" id="navbarText">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a href="index.html" class="nav-link">About</a>
@@ -73,28 +81,24 @@
       </div>
     </nav>
 
-    <section class="section2">
-      <br />
-      <div class="container">
-        <div class="row align-items-center justify-content-between">
-          <div class="col-md">
-            <img src="pics/store.png" class="img-fluid" />
-          </div>
-          <div class="col-md p-5">
-            <h1>We fix all things bikes.</h1>
-            <p class="lead">
-              Our service department is tidy, fast, and staffed with competent
-              mechanics who are eager to see you back on your bike. Our
-              turn-around time is unmatched anywhere else in town. We fix
-              everything bicycle related.
-            </p>
-          </div>
+    <section class="section1">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="pics/20220711_164505.jpg" class="img-fluid" />
+        </div>
+        <div class="col-md p-5 order-first">
+          <h2>We fix all things bikes.</h2>
+          <p class="lead">
+            Our service department is tidy, fast, and staffed with competent
+            mechanics who are eager to see you back on your bike. Our
+            turn-around time is unmatched anywhere else in town. We fix
+            everything bicycle related.
+          </p>
         </div>
       </div>
-      <br />
     </section>
 
-    <section class="section1">
+    <section class="section2">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
@@ -112,7 +116,7 @@
               just bring your bike and we will get you riding soon!
             </p>
             <br />
-            <h1>Service Rates</h1>
+            <h1>Tune-Up Rates</h1>
             <br />
             <h2>Safety Check - $60</h2>
             <p class="lead">
@@ -132,25 +136,104 @@
               <br /><br />
             </p>
           </div>
+          <h1>Service Rates</h1>
+          <table class="tableS">
+            <tr>
+              <th>Minimum Charge</th>
+              <th>$15</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Tube / Tire install</th>
+              <th>$15</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Install Cushcore / Tire Insert</th>
+              <th>$15 - $30</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Drivetrain adjustment</th>
+              <th>$25 - 40</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Brake Adjustment / Replace Pads</th>
+              <th>$25</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Brake Bleed</th>
+              <th>$40</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Wheel True / Spoke Replacement</th>
+              <th>$35 - 55</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Wheel Build (includes spokes, nipples, and tape)</th>
+              <th>$145</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Hub Service</th>
+              <th>$45 - $65</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Headset Install</th>
+              <th>$40</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Bottom Bracket Install</th>
+              <th>$40</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>50hr Shock Air Can Service</th>
+              <th>$75</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>50hr Fork Lowers Service</th>
+              <th>$90</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Suspension Full Service</th>
+              <th>$190 - 230</th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Pivot Bearing Replacement</th>
+              <th>$225</th>
+              <th></th>
+            </tr>
+          </table>
 
           <!-- <h4>
-          Inflate tires & lube chain - Free! <br />
-          Minimum charge - $15 <br />
-          Tube / Tire install $15 <br />
-          Install Cushcore / Tire Insert - $30 <br />
-          Drivetrain adjustment - $25-40 <br />
-          Brake adjustment / Replace Pads - $25 <br />
-          Brake bleed - $40 <br />
-          Wheel true / Spoke replacement - $35-55 <br />
-          Wheel build - $145 (Includes new spokes, nipples & rim tape) <br />
-          Hub overhaul - $45-65 <br />
-          Headset Install - $40 <br />
-          Bottom Bracket Install - $40 <br />
-          50hr Shock air can service - $75 <br />
-          50hr Fork lowers service - $90 <br />
-          Suspension full service - $190-230 <br />
-          Full Suspension Pivot Bearing Replacement - $225
-        </h4> -->
+            Inflate tires & lube chain - Free! <br />
+            Minimum charge - $15 <br />
+            Tube / Tire install $15 <br />
+            Install Cushcore / Tire Insert - $30 <br />
+            Drivetrain adjustment - $25-40 <br />
+            Brake adjustment / Replace Pads - $25 <br />
+            Brake bleed - $40 <br />
+            Wheel true / Spoke replacement - $35-55 <br />
+            Wheel build - $145 (Includes new spokes, nipples & rim tape) <br />
+            Hub overhaul - $45-65 <br />
+            Headset Install - $40 <br />
+            Bottom Bracket Install - $40 <br />
+            50hr Shock air can service - $75 <br />
+            50hr Fork lowers service - $90 <br />
+            Suspension full service - $190-230 <br />
+            Full Suspension Pivot Bearing Replacement - $225
+            <br />
+          </h4> -->
         </div>
       </div>
     </section>
